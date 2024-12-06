@@ -102,6 +102,12 @@ footer {
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 768px) {
+    footer {
+        position: relative;
+        top: 30px;
+    }
+}
 
 .tel h2 {
     margin: 20px;
