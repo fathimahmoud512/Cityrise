@@ -186,4 +186,20 @@ header {
     .navbar {
         margin-left: 70px;
     }
+
+    .navbar li {
+        margin-top: 10px;
+    }
+
+    nav .logo img {
+        width: 60px;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
 }
