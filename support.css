@@ -1,0 +1,13 @@
+.tel {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+img {
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}

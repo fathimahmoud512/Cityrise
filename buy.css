@@ -1,0 +1,83 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    direction: rtl; /* لكتابة النصوص من اليمين لليسار */
+}
+
+
+/* تصميم حاوية الدفع */
+.payment-container {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse; /* إزالة الفراغات بين الخلايا */
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+td {
+    background-color: rgb(255, 255, 255);
+}
+
+/* تلوين رأس الجدول */
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th {
+    font-weight: bold;
+}
+
+.send {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.tel {
+    margin-right: 100px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+} 
+
