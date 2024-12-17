@@ -105,6 +105,15 @@ header {
     border-radius: 5px;
 }
 
+.id {
+    margin: 10px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
 /* From Uiverse.io by SteveBloX */ 
 .card {
     box-sizing: border-box;
