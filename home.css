@@ -35,7 +35,7 @@ header {
 .header-right {
     color: black;
     width: 300px;
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 } 
@@ -113,6 +113,9 @@ header {
     padding: 5px;
     border-radius: 20px;
 }
+
+<br>
+<br>
 
 /* From Uiverse.io by SteveBloX */ 
 .card {
