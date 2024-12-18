@@ -21,7 +21,7 @@ body {
 
 /* تصميم الهيدر */
 header {
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 120px;
     top: 0;
@@ -35,7 +35,7 @@ header {
 .header-right {
     color: black;
     width: 300px;
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 } 
@@ -87,6 +87,14 @@ header {
     color: #fff;
 }
 
+.id {
+    margin: 10px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
 /* تصميم القائمة الجانبية (الهامبورجر) للموبايل */
 .hamburger-menu {
     display: none;
@@ -104,18 +112,6 @@ header {
     background-color: #fff;
     border-radius: 5px;
 }
-
-.idd {
-    margin: 10px;
-    width: 300px;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border-radius: 20px;
-}
-
-<br>
-<br>
 
 /* From Uiverse.io by SteveBloX */ 
 .card {
@@ -204,7 +200,7 @@ header {
     }
 
     .navbar li a {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     nav .logo img {
